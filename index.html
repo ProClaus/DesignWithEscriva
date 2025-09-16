@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DesignWithEscriva</title>
+  <style>
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #000;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0d1b2a;
+      padding: 1.5rem;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #9aa5b1;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .hero h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #1e90ff;
+    }
+
+    .hero button {
+      background: #1e3a8a;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #2563eb;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .card {
+      background: #111827;
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      background: #1f2937;
+    }
+
+    .card img {
+      width: 100%;
+      max-height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      background: #333; /* Placeholder background */
+    }
+
+    .card h3 {
+      color: #1e90ff;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #d1d5db;
+      margin-bottom: 1rem;
+    }
+
+    .card a {
+      display: inline-block;
+      background: #1e3a8a;
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      transition: background 0.3s ease;
+    }
+
+    .card a:hover {
+      background: #2563eb;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #0d1b2a;
+    }
+
+    .contact h2 {
+      margin-bottom: 1rem;
+      color: #1e90ff;
+    }
+
+    .contact p {
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+    }
+
+    .contact button {
+      background: #1e3a8a;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .contact button:hover {
+      background: #2563eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.8rem;
+      background: #111;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><li><a href="https://x.com/anythingescriva?t=D93L8FviSWxl6hHxVbgwPg&s=08" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/josemariaescriva/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									 <li><a href="https://github.com/ProClaus" class="icon brands fa-github"><span class="label">GitHub</span></a></li>DesignWithEscriva</h1>
+    <p>Modern, clean, and creative design solutions</p>
+  </header>
+
+  <section class="hero">
+    <h2>Bringing ideas to life with powerful design & storytelling</h2>
+    <button onclick="alert('DM me for a quotation!')">Request a Quote</button>
+  </section>
+
+  <section class="services">
+    <div class="card">
+      <img src="power.jpg" alt="PowerPoint Design">
+      <h3>PowerPoint</h3>
+      <p>Professional presentations & storytelling.</p>
+      <a href="PPT22.mp4">View</a>
+    </div>
+    <div class="card">
+      <img src="Canva.jpg" alt="Canva Design">
+      <h3>Canva</h3>
+      <p>Graphic design for reports, social media, and presentations.</p>
+      <a href="Canvva.mp4">View</a>
+    </div>
+    <div class="card">
+      <img src="ps.jpg" alt="Photoshop Design">
+      <h3>Photoshop</h3>
+      <p>Image editing and layouts.</p>
+      <a href="Adobee.mp4">View</a>
+    </div>
+    <div class="card">
+      <img src="busi.jpg" alt="Internal Communications">
+      <h3>Internal Communications</h3>
+      <p>Briefing notes, memos, and professional correspondence.</p>
+      <a href="https://proclaus.github.io/Escommunications/">View</a>
+    </div>
+    <div class="card">
+      <img src="resume.jpg" alt="CV Revamping">
+      <h3>CV Revamping</h3>
+      <p>Modern, eye-catching resumes & portfolios.</p>
+      <a href="#">View</a>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Let's Work Together</h2>
+    <p>Interested in working together? DM for a quotation today.</p>
+    <button onclick="alert('Send me a DM via socials or email!')">Get in Touch</button>
+  </section>
+
+  <footer>
+    © All rights reserved to Escriva Josemaria
+  </footer>
+</body>
+</html>
